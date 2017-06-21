@@ -4,16 +4,16 @@
 <html>
      <head>
           <meta charset=UTF-8>
-          <title>カート内</title>
+          <title>書庫一覧</title>
      </head>
      <body>
      <tr>
      <th>カート内</th>
 			</tr>
 			<table>
-			<c:forEach var="cart" items="${CartList}">
+			<c:forEach var="cart" items="${BookList}">
 				<tr>
-					<td>${cart.isbn}</td>
+					<td>${Book.isbn}</td>
      		</c:forEach>
    			 </table>
    			 
