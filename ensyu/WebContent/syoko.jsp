@@ -8,7 +8,7 @@
      </head>
      <body>
      <tr>
-     <th>カート内</th>
+     <th>書庫一覧</th>
 			</tr>
 			<table>
 			<c:forEach var="cart" items="${BookList}">
